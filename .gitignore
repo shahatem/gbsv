@@ -1,0 +1,8 @@
+gbsv_materials/
+gbsv_template_per_task.ipynb
+.venv/
+
+.DS_Store
+
+02_correlation.ipynb
+03_convolution_deconvolution.ipynb

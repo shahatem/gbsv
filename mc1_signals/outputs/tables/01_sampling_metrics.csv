@@ -1,0 +1,5 @@
+condition,sampling_rate_hz,relative_to_nyquist
+24kHz,24000,above
+16kHz,16000,at
+12kHz,12000,below
+8kHz,8000,far below

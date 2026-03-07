@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+matplotlib
+librosa
+soundfile
+notebook
+ipython
+nbconvert
