@@ -1,5 +1,5 @@
-condition,sampling_rate_hz,relative_to_nyquist
-24kHz,24000,above
-16kHz,16000,at
-12kHz,12000,below
-8kHz,8000,far below
+condition,sampling_rate_hz,relative_to_nyquist,nrmse,spectral_cosine_similarity
+24kHz,24000,above,0.004972499329596758,0.99998939037323
+16kHz,16000,at,0.0077042775228619576,0.9999794363975525
+12kHz,12000,below,0.0375976599752903,0.999569296836853
+8kHz,8000,far below,0.11278848350048065,0.9963322877883911
