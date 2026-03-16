@@ -14,7 +14,7 @@ mc1_signals/
         figures/
     notebooks/
         01_sampling_theorem.ipynb
-        02_correlation.ipynb                # work in progress
+        02_correlation.ipynb
         03_convolution_deconvolution.ipynb  # work in progress
     outputs/
         figures/
@@ -31,8 +31,8 @@ mc1_signals/
 
 ## Current Status
 
-- `01_sampling_theorem.ipynb`: active and exportable
-- `02_correlation.ipynb`: draft/work in progress
+- `01_sampling_theorem.ipynb`: Finished - Pending Feedback Implementation 
+- `02_correlation.ipynb`: Finished - Pending Feedback Implementation 
 - `03_convolution_deconvolution.ipynb`: draft/work in progress
 
 ## Setup
