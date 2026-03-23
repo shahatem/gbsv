@@ -15,7 +15,7 @@ mc1_signals/
     notebooks/
         01_sampling_theorem.ipynb
         02_correlation.ipynb
-        03_convolution_deconvolution.ipynb  # work in progress
+        03_convolution_deconvolution.ipynb  
     outputs/
         figures/
         audio/
@@ -33,7 +33,7 @@ mc1_signals/
 
 - `01_sampling_theorem.ipynb`: Finished - Pending Feedback Implementation 
 - `02_correlation.ipynb`: Finished - Pending Feedback Implementation 
-- `03_convolution_deconvolution.ipynb`: draft/work in progress
+- `03_convolution_deconvolution.ipynb`: Finished - Pending Feedback Implementation 
 
 ## Setup
 
