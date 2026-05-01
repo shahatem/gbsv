@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+opencv-python
+scikit-image
+scipy
+notebook
+ipython
+nbconvert
