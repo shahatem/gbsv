@@ -1,0 +1,13 @@
+axis,tier,low_threshold,high_threshold,ratio_low_to_high,blur_kernel,edge_density,edge_components,component_stability_pct,passes_density,passes_stability,passes_criterion
+main_grid,q95,48,96,0.5,3,0.07868295285820341,3498,109.08547519426182,False,False,False
+main_grid,q95,48,96,0.5,5,0.045962671677802526,1673,0.0,True,True,True
+main_grid,q95,48,96,0.5,7,0.02454296585003712,753,54.991034070531974,True,False,False
+main_grid,q97,62,124,0.5,3,0.0509442279138827,2129,121.54006243496357,False,False,False
+main_grid,q97,62,124,0.5,5,0.029333704528582034,961,0.0,True,True,True
+main_grid,q97,62,124,0.5,7,0.01698450259836674,489,49.115504682622266,True,False,False
+main_grid,q99,95,190,0.5,3,0.024630544729027468,869,86.48068669527898,True,False,False
+main_grid,q99,95,190,0.5,5,0.014807210467706014,466,0.0,True,True,True
+main_grid,q99,95,190,0.5,7,0.007157688381588716,185,60.30042918454935,False,False,False
+ratio_axis,q97,62,124,0.5,5,0.029333704528582034,961,,True,False,True
+ratio_axis,q97,50,124,0.403,5,0.033489351336302896,835,,True,False,True
+ratio_axis,q97,41,124,0.331,5,0.03789207498144024,765,,True,False,True
