@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ## Mini-Challenge 2 — Images (`mc2_images/`)
 
-2D image processing with Osman Hamdi Bey's *The Tortoise Trainer* as the primary source image.
+2D image processing with Osman Hamdi Bey's *The Tortoise Trainer* (1906, Pera Museum Istanbul) as the primary source image. The three notebooks form a progressive pipeline: photometric augmentation → structural edge analysis → object-level segmentation.
 
 ### Folder Structure
 
@@ -65,19 +65,26 @@ pip install -r requirements.txt
 mc2_images/
     data/
         raw/
-            Osman_Hamdi_Bey - The_Tortoise_Trainer.jpg
-            the_tortoise_trainer_header.png
+            Osman_Hamdi_Bey - The_Tortoise_Trainer.jpg   # 960 × 1796 px source
+            the_tortoise_trainer_header.png               # cropped header for display
         processed/
     notebooks/
-        01_augmentation.ipynb
-        02_pattern_detection.ipynb
+        01_augmentation.ipynb           # contrast / brightness / noise augmentation
+        02_pattern_detection.ipynb      # Canny edge detection + parameter sweep
+        03_segmentation_object_analysis.ipynb  # Otsu thresholding + connected-component sweep
+        01_augmentation.html            # exported HTML
+        02_pattern_detection.html
+        03_segmentation_object_analysis.html
     outputs/
-        figures/
+        figures/                        # all saved plots (PNG)
         tables/
+            01_augmentation_sweep.csv
+            02_pattern_sweep.csv
+            03_segmentation_sweep.csv
     src/
         image_utils.py
-        plotting_utils.py
         metrics_utils.py
+        plotting_utils.py
     requirements.txt
 ```
 
@@ -85,8 +92,9 @@ mc2_images/
 
 | Notebook | Status |
 |---|---|
-| `01_augmentation.ipynb` | Finished — Pending Feedback Implementation |
-| `02_pattern_detection.ipynb` | Finished — Pending Feedback Implementation |
+| `01_augmentation.ipynb` | Finished |
+| `02_pattern_detection.ipynb` | Finished |
+| `03_segmentation_object_analysis.ipynb` | Finished |
 
 ### Setup
 
